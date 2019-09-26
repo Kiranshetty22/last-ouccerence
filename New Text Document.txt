@@ -1,0 +1,41 @@
+#include<stdio.h>
+
+void main()
+   
+ {
+        
+int n;
+    
+scanf("%d",&n);
+
+int a[n],i,key;
+   
+ scanf("%d",&key);
+   
+ for(i=0;i<n;i++)
+   
+ {
+    
+scanf("%d",&a[i]);   
+ 
+    }
+    
+for(i=0;i<n;i++)
+    
+{
+        if(a[i]==key)
+ 
+       {
+           
+ key=i;
+            
+            
+    
+    }
+        
+  
+  }
+    
+printf("%d",key+1);
+
+}
